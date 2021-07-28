@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#modal{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgb(87, 86, 86);
+    background-color: aliceblue;
+ transform: translate(-50%, -50%); 
+    padding: 1rem;
+    border-radius: 0.25rem;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 10px 20px #1d1c1ce5;
+}
+
+#overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.753);
+}
